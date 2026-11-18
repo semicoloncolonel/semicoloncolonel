@@ -18,10 +18,10 @@ Patch only the apps you need. A patched app is re-signed, so it no longer update
 Morphe Manager shows the signer of each source on its "Signed by" line. Both sources are signed with the same key:
 
 <p align="center">
-  <a href="https://github.com/semicoloncolonel/mobile-morphe-patches/blob/main/docs/signing-key.md"><img alt="Signed by fingerprint" src="https://raw.githubusercontent.com/semicoloncolonel/mobile-morphe-patches/main/docs/assets/signed-by.svg"></a>
+  <a href="https://github.com/semicoloncolonel/mobile-morphe-patches/blob/dev/docs/signing-key.md"><img alt="Signed by fingerprint" src="https://raw.githubusercontent.com/semicoloncolonel/mobile-morphe-patches/dev/docs/assets/signed-by.svg"></a>
 </p>
 
-If Morphe Manager shows a different signer, check the signing key history of the [phone source](https://github.com/semicoloncolonel/mobile-morphe-patches/blob/main/docs/signing-key.md) or the [Android TV source](https://github.com/semicoloncolonel/tv-morphe-patches/blob/main/docs/signing-key.md) before you apply the patches.
+If Morphe Manager shows a different signer, check the signing key history of the [phone source](https://github.com/semicoloncolonel/mobile-morphe-patches/blob/dev/docs/signing-key.md) or the [Android TV source](https://github.com/semicoloncolonel/tv-morphe-patches/blob/dev/docs/signing-key.md) before you apply the patches.
 
 GitHub Actions also attaches a signed attestation to every release file, which names the commit the file was built from. To check a downloaded `.mpp` file, install the [GitHub CLI](https://cli.github.com) and run the command for its source.
 
